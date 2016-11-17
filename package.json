@@ -1,0 +1,31 @@
+{
+  "name": "nerds",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Yulia Drobiazka",
+  "license": "ISC",
+  "dependencies": {
+    "browser-sync": "^2.8.2",
+    "gulp": "^3.9.0",
+    "gulp-less": "^3.0.3"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^2.3.2"
+  },
+  "description": "nerds",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/umbrella-yulia-drobiazka/Nerds.git"
+  },
+  "keywords": [
+    "nerds"
+  ],
+  "bugs": {
+    "url": "https://github.com/umbrella-yulia-drobiazka/Nerds/issues"
+  },
+  "homepage": "https://github.com/umbrella-yulia-drobiazka/Nerds#readme"
+}

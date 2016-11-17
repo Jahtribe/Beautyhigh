@@ -1,0 +1,62 @@
+.sister{
+
+  h2{
+    margin-top: 30px;
+    margin-bottom: 35px;
+    font-family: 'Pump', arial;
+    font-size: 32px;
+    text-transform: uppercase;
+    text-align: center;
+
+  }
+  .sister-box{
+
+    padding: 0 5px 40px 5px;
+    margin-top: 10px;
+    border: 1px solid #dcdcdc;
+    background-color: #fbfbf9;
+    margin: 0 auto;
+    width:93%;
+    img{
+      width: 100%;
+    }
+    .sister-list{
+      padding-top: 30px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      width: 100%;
+      margin: 0;
+      .sister-item{
+        box-sizing: border-box;
+        width:28%;
+        margin-right: 7%;
+        @media (max-width: 768px){
+          width:100%;
+      margin-right: 0;
+      margin-bottom: 30px;
+
+        }
+
+        p{
+          font-family:'Times New Roman', Times, serif;
+          font-size: 14px;
+          text-align: center;
+          margin: 0 auto;
+          width: 90%;
+          padding-bottom: 15px;
+          padding-top: 15px;
+          border-bottom: 1px solid #c9c9c9;
+
+        }
+        .sister-text-3{
+          border: none;
+        }
+      }
+      .sister-item-3{
+        margin-right: 0;
+      }
+    }
+
+  }
+}

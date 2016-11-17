@@ -1,0 +1,97 @@
+.whoops{
+  font-size: 10px;
+  h1{
+    padding: 0;
+    @media (max-width: 1000px){
+      padding: 0 1% 0 1%;
+    }
+    text-align: left;
+    margin-top: 25px;
+    line-height: 120%;
+    font-family: 'Pump', arial;
+    font-weight:500;
+    font-size: 32px;
+    letter-spacing: 2%;
+    @media (max-width: 950px){
+      font-size: 26px;
+    }
+
+    @media (max-width: 768px){
+      font-size: 16px;
+    }
+    i{
+      font-style: normal;
+      color: #fd0858;
+    }
+  }
+  .whoops_list{
+    padding-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    margin: 0;
+    flex-direction: row;
+    article{
+      position: relative;
+      margin-right: auto;
+      margin-left: auto;
+      border: 1px solid #e5e5e5;
+      max-width: 320px;
+      box-sizing: border-box;
+      width:32%;
+      min-height: 329px;
+      margin-bottom: 20px;
+      @media (max-width: 768px){
+        width:48%;
+        max-width: 400px;
+      }
+      @media (max-width: 600px){
+        width:100%;
+        max-width: 570px;
+      }
+      h3{
+        font-family: 'Oswald', sans-serif;
+        font-size: 12px;
+        padding-left: 15px;
+        padding-top: 5px;
+        text-transform: uppercase;
+        padding-bottom: 0;
+
+      }
+      p{
+        padding-top: 0;
+        font-size: 14px;
+        padding-left: 14px;
+      }
+      img{
+        width: 100%;
+      }
+
+a{
+  position: relative;
+}
+    }
+
+a:hover:after{
+display: inline-block;
+    right: 18px;
+  bottom: 18px;
+    background: url('../img/pint-hover.jpg');
+content: "";
+    height: 53px;
+    position: absolute;
+    width: 55px;
+}
+  }
+  .button{
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+    border-bottom: 1px solid #e5e5e5;
+    min-height: 110px;
+  }
+}
+.fa-clone{
+  margin-right: 10px;
+}

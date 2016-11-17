@@ -1,0 +1,33 @@
+@import "header.scss";
+@import "whoops.scss";
+@import "mainmenu";
+@import "sister.scss";
+@import "footer.scss";
+
+body{
+
+  ul{
+  margin: 0;
+  padding: 0;
+}
+.wrapper{
+  max-width: 980px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+
+.wrapper-woops{
+
+  max-width: 1010px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+
+}
+.clearfix:after {
+
+        display: block;
+        content: "";
+        clear: both;
+        height: 0;
+}
